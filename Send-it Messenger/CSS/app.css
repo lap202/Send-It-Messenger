@@ -1,0 +1,126 @@
+#logoutbtn {
+    background-color:rgb(187, 0, 156);
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius:1em;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin: .5em;
+    margin-right: 5%;
+}
+#logoutbtn:hover {
+    background:rgb(143, 0, 124);
+    box-shadow: 0px 0px 1px #777;
+}
+#app {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+}
+#appheader {
+    width: 100%;
+    height: 5%;
+    text-align: right;
+}
+#appcontent {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+}
+#appfooter {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    top: 95vh;
+    align-items: center;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
+#site-logo {
+    width: 300px;
+    display: inline;
+}
+#searchbar {
+    display: block;
+    width: 100vw;
+    text-align: center;
+}
+#search {
+
+    text-align: center;
+}
+#userCardContainer {
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-rows: repeat(10, 200px);
+    justify-content: center;
+    padding: 1%;
+}
+#messenger {
+    display: block;
+}
+#messenger input {
+    width: 75%;
+}
+
+#searchForUserbtn {
+}
+input {
+    width: 75%;
+}
+.userCard {
+    display: grid;  
+    grid-template-columns: 200px 200px;
+    background-color: white;
+    text-align: left;
+    margin: 1%;
+}
+.userImage {
+    margin: 5%;
+}
+.column1 {
+    display: block;
+}
+.column2 {
+    display: block;
+}
+#cardTitle {
+    color: black;
+    margin: 1%;
+}
+.messagebtn {
+    background-color:rgb(165, 183, 196);
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius:1em;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin: .5em;
+    margin-top: 30%;
+}
+.messagebtn:hover {
+    background:rgb(122, 135, 145);
+    box-shadow: 0px 0px 1px #777;
+    
+}
+
+#messages {
+    width: 80vw;
+    height: 70vh;
+    margin: 1% 10% 1% 10%;
+    left:10%;
+    text-align: left;
+    background-color: white;
+    overflow-y: scroll;
+}
